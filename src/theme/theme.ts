@@ -1,0 +1,91 @@
+export const theme = {
+  colors: {
+    primary: '#6200ee',
+    primaryDark: '#3700b3',
+    primaryLight: '#bb86fc',
+    secondary: '#03dac6',
+    secondaryDark: '#018786',
+    secondaryLight: '#e6e6ff',
+    background: '#ffffff',
+    surface: '#f5f5f5',
+    card: '#ffffff',
+    error: '#b00020',
+    success: '#4caf50',
+    warning: '#ff9800',
+    info: '#2196f3',
+    text: '#000000',
+    textSecondary: '#666666',
+    white: '#ffffff',
+    black: '#000000',
+    border: '#e0e0e0',
+    disabled: '#cccccc',
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 12,
+    lg: 20,
+    xl: 28,
+  },
+  typography: {
+    h1: {
+      fontSize: 28,
+      fontWeight: '700',
+      lineHeight: 34,
+      fontFamily: 'System',
+    },
+    h2: {
+      fontSize: 22,
+      fontWeight: '700',
+      lineHeight: 28,
+      fontFamily: 'System',
+    },
+    h3: {
+      fontSize: 18,
+      fontWeight: '600',
+      lineHeight: 24,
+      fontFamily: 'System',
+    },
+    body: {
+      fontSize: 15,
+      lineHeight: 22,
+      fontFamily: 'System',
+    },
+    bodySmall: {
+      fontSize: 13,
+      lineHeight: 18,
+      fontFamily: 'System',
+    },
+    caption: {
+      fontSize: 12,
+      lineHeight: 16,
+      color: '#666666',
+      fontFamily: 'System',
+    },
+  },
+  borderRadius: {
+    sm: 4,
+    md: 8,
+    lg: 12,
+    xl: 16,
+    xxl: 20,
+  },
+  shadow: {
+    sm: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 1 },
+      shadowOpacity: 0.18,
+      shadowRadius: 1.0,
+      elevation: 1,
+    },
+    md: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.2,
+      shadowRadius: 2.62,
+      elevation: 3,
+    },
+  },
+};
+
+export type Theme = typeof theme;
